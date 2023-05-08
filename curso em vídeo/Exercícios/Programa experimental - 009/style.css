@@ -1,0 +1,43 @@
+div.section
+    {border: 1px solid seagreen;
+    border-width: thin;
+    border-style: double;
+    width: 57%;
+    float: right;
+    margin-right: 5%;}
+div.floated
+    {background-color: aquamarine;
+    font-size: 1.5em;
+    font-family: 'Courier New', Courier, monospace;
+    padding: .2em;/*distance between the cell and the letters inside.*/
+    float: right;/*block position inside the page.*/
+    text-align: right;
+    width: 40%;
+    margin-left: .5em;
+    margin-bottom: .5em;}
+div.analitic
+    {float: left;
+    padding: .2em;
+    font-size: 1em;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    border: 1 px solid saddlebrown;
+    border-width: thin;
+    border-style: double;
+    width: 27%;
+    margin-left: 5%;
+    margin-bottom: 8%;}
+div.image
+    {float: left;}
+p
+    {text-align: justify;
+    font-family: 'Courier New', Courier, monospace;
+    margin: .5em;}/*distance between the cell and the site wall (margin-bottom/margin-left/margin-right).*/
+body{
+    background-color: rgb(255, 248, 219);}
+div.menu{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    width: 10em;}
+div.menu a {display: none;}
+div.menu:hover a {display: block;}/*hover define that menu appears when the mouse move above him;*

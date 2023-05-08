@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        p{
+            margin: 25px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Meu primeiro formulário</h1>
+    <form autocomplete="on" method="POST" action="cadastro.php">
+
+        <p>
+            <label for="nome" >*Nome:</label>
+            <input type="text" name="nome" id="nome" required placeholder="nome do usuário">
+        </p>
+        <p>
+            <label for="sobrenome">*Sobrenome:</label> 
+            <input type="text" name="sobrenome" id="sobrenome" required placeholder="sobrenome do usuário">
+        </p>
+        <p>
+            <label for="email">*E-mail:</label> 
+            <input type="email" name="email" id="email" required placeholder="E-mail" autocomplete="email">
+        </p>
+        <p>
+            <label for="usuário">*Nome de usuário:</label>
+            <input type="text" name="usuário" id="usuário" required placeholder="usuário">
+        </p>
+        <p>
+            <label for="tel">*Telefone:</label> 
+            <input type="tel" name="tel" id="tel" placeholder="telefone Ex.: (27) 99999-9999" autocomplete="telefone"
+            pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+        </p>
+        <p>
+            <label for="foto">Foto do documento de identificação:</label>
+            <input type="file" name="foto" id="foto" required>
+        </p>
+        <p>
+            <label for="senha">*Senha: </label>
+            <input type="password" name="senha" id="senha" required minlength="5" placeholder="senha">
+        </p>
+        <p>
+            <label for="data">*Data de nascimento:</label>
+            <input type="date" name="data" id="data" required>
+        </p>
+        <p>
+            <label for="hora">*Hora do nascimento:</label>
+            <input type="time" name="hora" id="hora" required>
+        </p>
+        <p>Gênero:
+            <input type="radio" name="gênero" id="masculino" value="masculino" required><label for="masculino">Masculino</label>
+            <input type="radio" name="gênero" id="feminino" value="feminino" required><label for="feminino">Feminino</label>
+        </p>
+        <p>Naturalidade:
+        <select name="estado" id="estado">
+            <optgroup label="Reigão Nordeste">
+                <option value="PE">Pernambuco</option>
+                <option value="MA">Maranhão</option>
+                <option value="BA">Bahia</option>
+                <option value="SE">Sergipe</option>
+            </optgroup>
+            <optgroup label="Região Sudeste">
+                <option value="ES" selected>Espiríto Santo</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="SP">São Paulo</option>
+            </optgroup>
+        </select>
+        </p>
+        <p><label for="profissao">Profissao</label>
+            <input type="text" name="profissao" id="profissao" list="listaProfissao">
+            <datalist id="listaProfissao">
+                <option>Administrador</option>
+                <option>Apicultor</option>
+                <option>Autonomo</option>
+                <option>Automobilista</option>
+                <option>Agiota</option>
+                <option>Bebado</option>
+                <option>Barbeiro</option>
+                <option>Barista</option>
+                <option>Bárbaro</option>
+                <option>Botânico</option>
+                <option>Carcereiro</option>
+                <option>Carreteiro</option>
+                <option>Caçador</option>
+                <option>Dentista</option>
+                <option>Desenvolvedor</option>
+                <option>Desenhista</option>
+                <option>Eletricista</option>
+                <option>Engenheiro</option>
+                <option>Erbalista</option>
+                <option>Enfermeiro</option>
+                <option>Frentista</option>
+                <option>Famoso</option>
+                <option>Gari</option>
+                <option>Guibolô</option>
+                <option>Gordo</option>
+            </datalist>
+        </p>
+        <p>Atividades atuais:</p>
+            <input type="checkbox" name="esporte" id="profissional CLT"><label for="profissional CLT">profissional CLT</label>
+            <input type="checkbox" name="esporte" id="profissional CNPJ"><label for="profissional CNPJ">profissional CNPJ</label>
+            <input type="checkbox" name="esporte" id="independente"><label for="independente">independente</label>
+            <input type="checkbox" name="esporte" id="estudante"><label for="estudante">estudante</label>
+
+        <p>
+            <input type="submit" value="enviar">
+            <input type="reset" value="limpar">
+        </p>
+    </form>
+</body>
+</html>

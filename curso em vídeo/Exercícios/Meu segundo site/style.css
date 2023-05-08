@@ -1,0 +1,28 @@
+body{
+    width: 100%;
+    height: 100%;
+}
+.menu_principal{
+    width: 100%;
+    background-color: #E0EAEC;
+    height: 80px;
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    padding: 17px;
+    display: inline-block;
+    width: 70%;
+}
+.midia ul li{
+    display: inline;
+    text-decoration: none;
+    padding: 10px;
+}
+.midia{
+    width: 20%;
+    float: right;
+}

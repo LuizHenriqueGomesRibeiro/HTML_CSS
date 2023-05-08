@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(255, 248, 219);
+}
+div.menu{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    width: 10em;
+}
+div.menu:hover a {display: block;}/*hover define that menu appears when the mouse move above him;*/
+div.menu a {display: none;}

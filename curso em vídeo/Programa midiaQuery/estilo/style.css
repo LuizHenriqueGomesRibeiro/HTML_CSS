@@ -1,0 +1,27 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header div{
+    background-color: lightgray;
+    height: 40px;
+}
+header div h1{
+    text-align: center;
+}
+menu ul{
+    background-color: darkgray;
+}
+menu li{
+    display: inline-block;
+    margin: 2px -4px 2px 2px;
+    padding: 2px;
+    background-color: lightgray;
+}
+main{
+    width: 800px;
+    height: 100vh;
+    margin: auto;
+    padding: 20px;
+    background-color: lightgray;
+}

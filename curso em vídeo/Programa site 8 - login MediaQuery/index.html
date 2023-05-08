@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <link rel="stylesheet" href="estilos/media_query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+</head>
+<body>
+    <main>
+        <section class="login">
+            <div class="imagem">
+            </div>
+            <div class="formulario">
+                <h3>Seja bem-vindo</h3>
+                <p>Insira as suas informações para fazer as configurações do ambiente.</p>
+                <form action="login.jsp" method="post" autocomplete="on">
+                    <div class="campo">
+                        <i class="material-icons">person</i>
+                        <input type="email" name="login" id="login" placeholder="seu e-mail" autocomplete="email" required>
+                        <label for="login"></label>
+                    </div>
+                    <div class="campo">
+                        <i class="material-icons">vpn_key</i>
+                        <input type="password" name="senha" id="senha" placeholder="sua senha" autocomplete="current-password" required
+                        minlength="8">
+                        <label for="senha"></label>
+                    </div>
+                    <input class="pointed" type="submit" value="Entrar">
+                    <a href="#" class="botao">Esqueci minha senha</a>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>     

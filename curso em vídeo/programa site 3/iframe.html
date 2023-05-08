@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+      
+    </style>
+</head>
+<body>
+    <div class="pode">
+        <h1>Meu primeiro formulário</h1>
+            <form autocomplete="on" method="POST" action="cadastro.php" id="meuFormulário">
+                <p class="formulário">
+                    <label for="nome" >*Nome:</label>
+                    <input class="formulário2" type="text" name="nome" id="nome" onfocus="texto(0)" onblur="texto(2)" required placeholder="nome do usuário">
+                </p>
+                <p>
+                    <label for="sobrenome">*Sobrenome:</label> 
+                    <input class="formulário2" type="text" name="sobrenome" id="sobrenome" required placeholder="sobrenome do usuário">
+                </p>
+                <p>
+                    <label for="email">*E-mail:</label> 
+                    <input class="formulário2" type="email" name="email" id="email" required placeholder="E-mail" autocomplete="email" onfocus="texto(1)" onblur="texto(2)">
+                </p>
+                <p>
+                    <label for="usuário">*Nome de usuário:</label>
+                    <input class="formulário2" type="text" name="usuário" id="usuário" required placeholder="usuário">
+                </p>
+                <p>
+                    <label for="tel">*Telefone:</label> 
+                    <input class="formulário2" type="tel" name="tel" id="tel" placeholder="telefone Ex.: (27) 99999-9999" autocomplete="telefone"
+                    pattern="^\(\d{2}\)\d{4,5}-\d{4}$" required>
+                </p>
+                <p>
+                    <label for="foto">Foto do documento de identificação:</label>
+                    <input class="formulário2" type="file" name="foto" id="foto" required>
+                </p>
+                <p>
+                    <label for="senha">*Senha: </label>
+                    <input class="formulário2" type="password" name="senha" id="senha" required minlength="5" placeholder="senha">
+                </p>
+                <p>
+                    <label for="data">*Data de nascimento:</label>
+                    <input class="formulário2" type="date" name="data" id="data" required>
+                </p>
+                <p>
+                    <label for="hora">*Hora do nascimento:</label>
+                    <input class="formulário2" type="time" name="hora" id="hora" required>
+                </p>
+                <p>Gênero:</p>
+                    <input type="radio" name="gênero" id="masculino" value="masculino" required><label for="masculino">Masculino</label>
+                    <input type="radio" name="gênero" id="feminino" value="feminino" required><label for="feminino">Feminino</label>
+                </p>
+                <p>Atividades atuais:</p>
+                    <input type="checkbox" name="esporte" id="profissional CLT"><label for="profissional CLT">profissional CLT</label>
+                    <input type="checkbox" name="esporte" id="profissional CNPJ"><label for="profissional CNPJ">profissional CNPJ</label>
+                    <input type="checkbox" name="esporte" id="independente"><label for="independente">independente</label>
+                    <input type="checkbox" name="esporte" id="estudante"><label for="estudante">estudante</label>
+                <p>
+                    <input type="submit" value="enviar">
+                    <input type="reset" value="limpar">
+                </p>
+            </form>
+            <div id="texto"></div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url(../imagens/mapa_peste\ da\ fome_~2034.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-y: visible;
+}
+
+header div.titulo{
+    background-color: rgb(158, 114, 114);
+    height: 65px;
+}
+header div.subtitulo{
+    background-color: #E0EAEC;
+    height: 55px;
+}
+header div.subtitulo div{
+    width: 590px;
+    margin: auto;
+}
+header div h1{
+    font-size: 50px;
+    text-align: center;
+}
+div.midia ul{
+    margin: -51px 0px 0px 0px;
+}
+div.midia ul li{
+    display: inline;
+    text-decoration: none;
+    margin: 0px 0px 0px 14px;
+    float: right;
+}
+.logo{
+    margin: 7px 0px 0px 0px;
+}
+.margem{
+    height: 3px;
+    background-color: black;
+}
+
+main{
+    width: 600px;
+    background-color: gray;
+    height: 100vh;
+    margin: auto;
+}
+
+footer{
+    height: 40px;
+    background-color: darkgray;
+}

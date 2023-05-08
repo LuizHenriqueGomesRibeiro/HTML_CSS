@@ -1,0 +1,16 @@
+.menu{
+    
+}
+.menu a{
+    display: none;
+}
+.menu:hover a{
+    display: block;
+    text-decoration: none;
+}
+.menu:hover{
+    color: blue;
+}
+a{
+    color: rgb(0, 0, 0);
+}

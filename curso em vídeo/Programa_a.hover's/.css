@@ -1,0 +1,13 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    color: #858585;
+    text-decoration: none;
+}
+a:hover{
+    color:#424242;
+}
+a:active{
+    color: #1d1d1d;
+}

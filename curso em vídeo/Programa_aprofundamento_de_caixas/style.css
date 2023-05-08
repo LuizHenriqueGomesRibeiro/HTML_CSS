@@ -1,0 +1,40 @@
+body{
+    margin: 0 auto;
+}
+header{
+    background-color: #a3c4c2;
+    margin: 0;
+    height: 80px;
+}
+.logo{
+    margin: 0 auto;
+    padding-left: 80px;
+    padding-top: 18px;
+}
+.midia{
+    text-align: right;
+    margin-top: -25px;
+    margin-right: 100px;
+}
+main{
+    background-color: #648285;
+    margin: 0;
+}
+.section1{
+    margin: 0;
+    padding: 20px;
+    text-align: justify;
+}
+.section2{
+    padding-bottom: 30px;
+}
+.section3{
+    background-color: #f3daaa;
+    height: 2px;
+}
+footer{
+    background-color: #f3daaa;
+    padding: 3px;
+    text-align: center;
+    margin: 0;
+}
